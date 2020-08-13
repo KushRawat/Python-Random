@@ -1,3 +1,5 @@
+# Practice code
+
 x = [9,8,2]
 y = x.remove(2)
 z = print(1, end = "")
