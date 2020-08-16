@@ -1,10 +1,13 @@
 # Practice code
 
 x = [9,8,2]
-y = x.pop(2)
+y = x.remove(2)
 z = print(1, end = "")
 if y or z:
     print(1)
 else:
     print(2)
+
+print(y)    # output will be none that's why else runs 
+print(z)
     
